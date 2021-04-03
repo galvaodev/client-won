@@ -122,12 +122,12 @@ export const MenuFull = styled.nav<isOpenProps>`
       font-weight: ${theme.font.bold};
       font-size: ${theme.font.sizes.xlarge};
       margin-bottom: ${theme.spacings.small};
-      transform ${isOpen ? 'trnaslateY(0)' : 'translateY(3rem)'};
+      transform ${isOpen ? 'translateY(0)' : 'translateY(3rem)'};
       transition: transform 0.3s ease-in-out;
     }
 
     ${RegisterBox} {
-      transform ${isOpen ? 'trnaslateY(0)' : 'translateY(3rem)'};
+      transform ${isOpen ? 'translateY(0)' : 'translateY(3rem)'};
       transition: transform 0.3s ease-in-out;
     }
   `}
