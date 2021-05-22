@@ -6,12 +6,13 @@ import Slider, { SliderSettings } from 'components/Slider'
 
 import * as S from './styles'
 
-type GameCardSliderProps = {
+export type GameCardSliderProps = {
   items: GameCardProps[]
   color?: 'white' | 'black'
 }
 
 const settings: SliderSettings = {
+  arrows: true,
   slidesToShow: 4,
   infinite: false,
   lazyLoad: 'ondemand',
